@@ -12,15 +12,17 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/symp.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/symp/releases/2019-05-03/symp.owl"/>
-	<dc:description>The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.</dc:description>
-	<dc:title>Symptom Ontology</dc:title>
-	<terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dc:description>The Symptom Ontology has been developed as a standardized ontology for symptoms of human diseases.</dc:description>
+        <dc:title>Symptom Ontology</dc:title>
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03:05:2019 13:30</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lschriml</oboInOwl:saved-by>
     </owl:Ontology>
     
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -37,6 +39,24 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -4242,7 +4262,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bronchitis is a respiratory system and chest symptom characterized by an acute or chronic inflammation of the bronchial tubes.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000324</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condition and symptom.</rdfs:comment>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchitis</rdfs:label>
     </owl:Class>
@@ -5493,7 +5512,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indigestion</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000422</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A symptom of peptic ulcer disease, however, dyspepsia is also a condition with it&apos;s own set of conidtions. Should this term stay in the symptom ontology ?</rdfs:comment>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dyspepsia</rdfs:label>
     </owl:Class>
@@ -9685,7 +9703,6 @@ by raised red skin wheals (welts) commonly caused by an allergic reaction with w
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic fatigue syndrome is a fatigue characterized by a disorder of uncertain cause that is characterized by persistent profound fatigue usually accompanied by impairment in short-term memory or concentration, sore throat, tender lymph nodes, muscle or joint pain, and headache unrelated to any preexisting medical condition and that typically has an onset at about 30 years of age.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symptoms</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SYMP:0000687</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disorder.</rdfs:comment>
         <rdfs:comment>doid/symp duplicate</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic fatigue syndrome</rdfs:label>
     </owl:Class>
